@@ -1,0 +1,47 @@
+{
+  "name": "daita-demo",
+  "version": "1.0.0",
+  "description": "A demo daita project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "daita",
+    "@daita/cli",
+    "@daita/core",
+    "demo",
+    "example",
+    "blog"
+  ],
+  "readme": "",
+  "homepage": "https://daita.ch",
+  "repository": {
+    "url": "https://github.com/no0dles/daita-demo",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/no0dles/daita-demo/issues"
+  },
+  "author": "dev@daita.ch",
+  "license": "MIT",
+  "devDependencies": {
+    "@daita/cli": "0.0.4-alpha.0",
+    "@types/express-jwt": "0.0.42",
+    "@types/uuid": "^3.4.6",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@daita/core": "0.0.4-alpha.6",
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "pg": "^7.14.0",
+    "ts-node": "^8.5.4",
+    "uuid": "^3.3.3"
+  }
+}
